@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./dist/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nagiyev Mahaddin",
+  "type": "module",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.26.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
